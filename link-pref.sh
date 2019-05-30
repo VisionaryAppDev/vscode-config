@@ -1,0 +1,5 @@
+eval "cd ~;"
+# eval "cd ~; mkdir -p `pwd`/.config/Code\ -\ Insiders/User"
+eval "mkdir -p `pwd`/.config/Code\ -\ Insiders/User"
+eval "cd ~; ln -s `pwd`/.vscode-config/keybindings.json `pwd`/.config/Code\ -\ Insiders/User/keybindings.json"
+eval "cd ~; ln -s `pwd`/.vscode-config/settings.json `pwd`/.config/Code\ -\ Insiders/User/settings.json"
