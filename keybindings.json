@@ -1,0 +1,63 @@
+// Place your key bindings in this file to override the defaults
+[{
+        "key": "alt+s",
+        "command": "extension.fuzzy-search"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "multiCommand.makeRoom"
+    },
+    // Expand Region
+    {
+        "key": "ctrl+=",
+        "command": "javascriptBooster.extendSelection"
+    },
+    {
+        "key": "ctrl+shift+=",
+        "command": "javascriptBooster.shrinkSelection"
+    },
+
+    // Java
+    {
+        "key": "F5",
+        "when": "inDebugMode",
+        "command": "workbench.action.debug.restart"
+    },
+    {
+        "key": "F6",
+        "when": "inDebugMode",
+        "command": "workbench.action.debug.stepOver"
+    },
+    {
+        "key": "F7",
+        "when": "inDebugMode",
+        "command": "workbench.action.debug.stepInto"
+    },
+    {
+        "key": "F8",
+        "when": "inDebugMode",
+        "command": "workbench.action.debug.continue"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.debug.action.focusRepl"
+    },
+    {
+        "key": "ctrl+l",
+        "when": "inDebugRepl",
+        "command": "workbench.debug.panel.action.clearReplAction"
+    },
+
+
+    // Ace Jump
+    {
+        "key": "alt+f",
+        "when": "editorTextFocus",
+        "command": "extension.aceJump"
+    },
+    {
+        "key": "ctrl+f",
+        "when": "editorTextFocus",
+        "command": "extension.aceJump.selection"
+    }
+]

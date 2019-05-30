@@ -1,0 +1,253 @@
+{
+    "breadcrumbs.enabled": true,
+    "debug.inlineValues": true,
+    "debug.openDebug": "neverOpen",
+    "editor.fontSize": 16,
+    "editor.tabSize": 4,
+
+
+
+    "editor.insertSpaces": true,
+    // When opening a file, `editor.tabSize` and `editor.insertSpaces`
+    // will be detected based on the file contents. Set to false to keep
+    // the values you've explicitly set, above.
+    "editor.detectIndentation": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.wordWrap": "on",
+    "editor.mouseWheelZoom": true,
+    "editor.parameterHints.cycle": true,
+    "editor.fontLigatures": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.minimap.enabled": false,
+    "editor.suggest.localityBonus": true,
+    "editor.mouseWheelScrollSensitivity": 5,
+    "editor.smoothScrolling": true,
+    "editor.renderControlCharacters": true,
+    "files.maxMemoryForLargeFilesMB": 1596,
+    "workbench.editor.enablePreview": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.commandPalette.preserveInput": true,
+    "workbench.quickOpen.preserveInput": true,
+    "workbench.settings.editor": "json",
+    "window.restoreFullscreen": true,
+    "search.showLineNumbers": true,
+    "search.smartCase": true,
+    "search.usePCRE2": true,
+    "terminal.integrated.confirmOnExit": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.scrollback": 10000,
+    "telemetry.enableCrashReporter": false,
+    "update.showReleaseNotes": false,
+    "telemetry.enableTelemetry": false,
+    "zenMode.restore": true,
+    "better-comments.highlightPlainText": true,
+    "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
+    "bracket-pair-colorizer-2.showBracketsInGutter": true,
+    // "vim.easymotion": true,
+    // "vim.foldfix": true,
+    // "vim.hlsearch": true,
+    // "vim.sneak": true,
+    // "vim.statusBarColorControl": true,
+    // "vim.useSystemClipboard": true,
+    "dimmer.context": 5,
+    // CSS Class Completion
+    "html-css-class-completion.enableEmmetSupport": true,
+    // Check Style
+    // "checkstyle.autocheck": true,
+    "checkstyle.version": "8.0",
+    "checkstyle.configurationFile": "google_checks",
+    // Specify the path to the checkstyle properties file, by default it's empty.
+    "checkstyle.propertiesPath": "",
+    // Show a warning if the version of Checkstyle is invalid.
+    "checkstyle.showCheckstyleVersionInvalid": true,
+
+    // Java Boot
+    "boot-java.change-detection.on": true,
+    // Spring Init
+    "spring.initializr.defaultGroupId": "com.cc",
+    // Java LSP
+    "java.debug.settings.showQualifiedNames": true,
+    "spring.initializr.defaultLanguage": "Java",
+    "java.completion.guessMethodArguments": true,
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.implementationsCodeLens.enabled": true,
+    "java.maxConcurrentBuilds": 8,
+    "java.referencesCodeLens.enabled": true,
+    "java.saveActions.organizeImports": true,
+    "java.signatureHelp.enabled": true,
+    "java.debug.settings.enableHotCodeReplace": false,
+    "java.home": "/usr/lib/jvm/java-11-openjdk",
+    // "java.jdt.ls.vmargs": "-noverify -XX:MaxPermSize=1024m -XX:ParallelGCThreads=4 -XX:ReservedCodeCacheSize=140m -XX:+UseCompressedOops -XX:ConcGCThreads=4 -XX:-TraceClassUnloading -XX:+AlwaysPreTouch -XX:+TieredCompilation  -XX:SoftRefLRUPolicyMSPerMB=50 -XX:+OptimizeStringConcat -server -XX:-CITime -XX:-PrintConcurrentLocks -Xms724m -Xmx1524m -Xss4m -XX:+UseG1GC -XX:+UseStringDeduplication",
+    // Bracket Pair Colorize
+    // ESLint
+    "eslint.alwaysShowStatus": true,
+    "eslint.autoFixOnSave": true,
+    // JSHint
+    "jshint.lintHTML": true,
+    // Typescript
+    "typescript.implementationsCodeLens.enabled": true,
+    "typescript.referencesCodeLens.enabled": true,
+    "typescript.suggest.completeFunctionCalls": true,
+    "javascript.format.insertSpaceAfterConstructor": true,
+    "javascript.referencesCodeLens.enabled": true,
+    "javascript.suggest.completeFunctionCalls": true,
+    // Terminal
+    "terminal.integrated.copyOnSelection": true,
+    // Github Pull Monitor
+    "pullRequestMonitor.refreshInterval": 5,
+    "pullRequestMonitor.count": 100,
+    "pullRequestMonitor.showClosed": true,
+    "pullRequestMonitor.showMerged": true,
+    // Path Intelligense
+    "path-intellisense.showHiddenFiles": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#005f5f",
+        "statusBar.noFolderBackground": "#005f5f",
+        "statusBar.debuggingBackground": "#005f5f",
+    },
+
+    // Rest Client
+    "rest-client.suppressResponseBodyContentTypeValidationWarning": true,
+    // "rest-client.showResponseInDifferentTab": false,
+    // "rest-client.previewResponseInUntitledDocument": false,
+    "rest-client.enableTelemetry": false,
+    // Git
+    "git.autofetch": true,
+    "git.showPushSuccessNotification": true,
+    // Git Lense
+    "gitlens.advanced.telemetry.enabled": false,
+    // GIT Ignore
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/bin": true,
+        "**/target": true,
+        "**/.classpath": true,
+        "**/.settings": true,
+        "**/.project": true,
+        "**/.directory": true,
+        ".vscode": true,
+        ".gradle": true,
+        "gradle": true,
+        "**/.factorypath": true,
+        ".attach_pid*": true
+    },
+    // Center Editor Window
+    "center-editor-window.threeStateToggle": true,
+
+    // javascript
+    "javascript.implicitProjectConfig.checkJs": true,
+
+
+    // import cost
+    "importCost.javascriptExtensions": [
+        "\\.jsx?$",
+        "\\.js"
+    ],
+
+    // Multi Command
+    "multiCommand.commands": [{
+        "command": "multiCommand.makeRoom",
+        "sequence": [
+            "workbench.action.toggleSidebarVisibility",
+            "workbench.action.toggleActivityBarVisibility",
+        ]
+    }, ],
+
+    // prettier
+    "editor.formatOnSave": true,
+    "prettier.eslintIntegration": true,
+    "prettier.tabWidth": 2,
+
+    "prettifySymbolsMode.substitutions": [{
+        "language": "java",
+        "substitutions": [{
+                "ugly": "double",
+                "pretty": "ℤ"
+            },
+            {
+                "ugly": "ℝ",
+                "pretty": "int"
+            },
+            {
+                "ugly": "ℒ",
+                "pretty": "List"
+            },
+            {
+                "ugly": "&&",
+                "pretty": "⋏"
+            },
+            {
+                "ugly": "||",
+                "pretty": "⋎"
+            },
+            {
+                "ugly": "foreach",
+                "pretty": "∀"
+            },
+            {
+                "ugly": "forEach",
+                "pretty": "∀"
+            },
+            {
+                "ugly": "function",
+                "pretty": "ƒ"
+            },
+            {
+                "ugly": "void",
+                "pretty": "ƒ"
+            },
+            {
+                "ugly": "fun",
+                "pretty": "ƒ"
+            },
+            {
+                "ugly": "isEmpty",
+                "pretty": "∅"
+            },
+            {
+                "ugly": "instantOf",
+                "pretty": "∊"
+            },
+            {
+                "ugly": "contains",
+                "pretty": "∋"
+            },
+            {
+                "ugly": "Math.sqrt",
+                "pretty": "√"
+            },
+            {
+                "ugly": "union",
+                "pretty": "∪"
+            }
+        ]
+    }],
+    "window.zoomLevel": 0,
+    "files.trimTrailingWhitespace": true,
+
+    "todohighlight.keywords": [
+        "TODO",
+        "TBD",
+        "BUG",
+        "FIX"
+    ],
+
+    // Ace Jump
+    "aceJump.finder.onlyInitialLetter": false,
+    "aceJump.finder.skipSelection": true,
+
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.rendererType": "dom",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "left",
+    "workbench.activityBar.visible": true,
+}
