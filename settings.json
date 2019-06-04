@@ -8,23 +8,21 @@
 
 
     "editor.insertSpaces": true,
-    // When opening a file, `editor.tabSize` and `editor.insertSpaces`
-    // will be detected based on the file contents. Set to false to keep
-    // the values you've explicitly set, above.
-    "editor.detectIndentation": false,
     "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 500,
+    "files.autoSaveDelay": 100,
     "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.wordWrap": "on",
-    "editor.mouseWheelZoom": true,
+    // "editor.wordWrap": "wordWrapColumn",
+    // "editor.wordWrapColumn": 1111,
+    "editor.mouseWheelZoom": false,
     "editor.parameterHints.cycle": true,
     "editor.fontLigatures": true,
     "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
-    "editor.formatOnType": true,
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
     "editor.minimap.enabled": false,
     "editor.suggest.localityBonus": true,
-    "editor.mouseWheelScrollSensitivity": 5,
+    "editor.mouseWheelScrollSensitivity": 10,
     "editor.smoothScrolling": true,
     "editor.renderControlCharacters": true,
     "files.maxMemoryForLargeFilesMB": 1596,
@@ -138,7 +136,10 @@
         ".gradle": true,
         "gradle": true,
         "**/.factorypath": true,
-        ".attach_pid*": true
+        ".attach_pid*": true,
+        "node_modules": true,
+        "*.hot-update.js": true,
+        "*.hot-update.json": true,
     },
     // Center Editor Window
     "center-editor-window.threeStateToggle": true,
@@ -249,5 +250,14 @@
     "terminal.integrated.rendererType": "dom",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.sideBar.location": "left",
-    "workbench.activityBar.visible": true,
+    "workbench.activityBar.visible": false,
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.suggestSelection": "first",
+    "editor.renderWhitespace": "all",
+    "editor.detectIndentation": false,
+    "editor.gotoLocation.multiple": "gotoAndPeek",
+    "editor.hover.delay": 200,
+    "extensions.ignoreRecommendations": true,
 }
